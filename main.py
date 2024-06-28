@@ -10,7 +10,10 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    
+    for i in range(3, N + 1):
+        result.append((result[i - 3] + result[i - 2]))
+    print(result)
     ########################################
     # Do not delete the return statement
     ########################################
